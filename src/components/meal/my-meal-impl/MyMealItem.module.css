@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    /*font-family: "Times New Roman", Times, serif;*/
+    /*font-weight: 1000;*/
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.order{
+    display: flex;
+    flex-direction: column;
+}
+
+.order input{
+    margin: 5px 10px;
+    width: 2rem;
+    text-align: center;
+}
+
+.order label{
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.order button{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #a715d7;
+    border-color: #a715d7;
+    color: white;
+    font-weight: bold;
+    margin: 3px;
+}
+
+.name{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.price{
+    color: #6b068a;
+    font-weight: bold;
+}
